@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amo tal pessoa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* Prioriza a fonte Press Start 2P para o tema pixelado */
+            font-family: 'Press Start 2P', 'Pixelify Sans', Arial, sans-serif;
+            background-color: #FF0000; /* Vermelho vibrante */
+            color: #FFFFFF; /* Texto branco */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            /* Se "heart.png" existir, ele repetirá o coração no fundo */
+            background-image: url('heart.png'); 
+            background-repeat: repeat;
+            background-size: 50px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background-color: rgba(0, 0, 0, 0.6); /* Fundo um pouco mais opaco para melhor leitura */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+            border: 3px solid #FFFF00; /* Borda amarela chamativa */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 4px 4px #000000; /* Efeito pixelado no texto */
+            /* Garante que o H1 use a fonte pixelada de maior impacto */
+            font-family: 'Press Start 2P', cursive;
+        }
+        
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+            /* Usa uma fonte pixelada mais legível para o corpo do texto */
+            font-family: 'Pixelify Sans', Arial, sans-serif; 
+        }
+
+        .image-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .image-section img {
+            /* Nome da foto alterado para "Euiaisaa" */
+            max-width: 250px;
+            height: auto;
+            border: 5px solid #FF00FF; /* Borda magenta */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+            image-rendering: pixelated; /* Tenta manter a imagem com visual pixelado, se for o caso */
+        }
+
+        .image-section .phrase {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px #000000;
+            color: #FFFF00; /* Frase em amarelo para destaque */
+            /* Garante que a frase use a fonte pixelada */
+            font-family: 'Press Start 2P', cursive;
+            max-width: 300px; /* Limita a largura da frase para não ficar muito longa em uma linha */
+        }
+
+        /* Responsividade básica */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .image-section {
+                flex-direction: column;
+            }
+            .image-section .phrase {
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>7 MESES DE NÓS.</h1>
+
+        <p>
+Meu amor tanananananananananana ai aq tu escrve um texto bem tri, ai fica grandao
+        </p>
+
+        <div class="image-section">
+            <img src="Euiaisaa.jpg" alt="">
+            <span class="phrase">ai aqui da pra ti colocar algo fofo aranha cabeçuda</span>
+        </div>
+    </div>
+</body>
+</html>
